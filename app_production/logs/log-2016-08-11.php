@@ -1,0 +1,31 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-08-11 01:55:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 03:02:09 --> 404 Page Not Found: Https:/www.facebook.com
+ERROR - 2016-08-11 03:02:12 --> 404 Page Not Found: Https:/embed.tawk.to
+ERROR - 2016-08-11 03:02:12 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-08-11 03:02:13 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-08-11 03:02:13 --> 404 Page Not Found: Features/https:
+ERROR - 2016-08-11 03:02:13 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-08-11 03:02:14 --> 404 Page Not Found: Https:/maxcdn.bootstrapcdn.com
+ERROR - 2016-08-11 03:02:14 --> 404 Page Not Found: Features/https:
+ERROR - 2016-08-11 03:02:14 --> 404 Page Not Found: Features/https:
+ERROR - 2016-08-11 03:02:15 --> 404 Page Not Found: Features/https:
+ERROR - 2016-08-11 03:02:15 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-08-11 03:02:15 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-08-11 04:34:13 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 04:42:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 06:11:09 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 06:11:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 06:13:52 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 07:40:49 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 10:07:05 --> 404 Page Not Found: V1_assets/img
+ERROR - 2016-08-11 10:30:08 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 10:30:08 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 18:33:27 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 19:12:58 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 20:10:06 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-08-11 20:25:07 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 21:04:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 23:25:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-08-11 23:28:39 --> 404 Page Not Found: Robotstxt/index

@@ -1,0 +1,29 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-06-06 01:45:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 02:50:18 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 03:38:21 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 03:49:54 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 07:43:49 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 09:45:56 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 12:23:10 --> 404 Page Not Found: Https:/www.facebook.com
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Https:/embed.tawk.to
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Features/https:
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Https:/maxcdn.bootstrapcdn.com
+ERROR - 2016-06-06 12:23:13 --> 404 Page Not Found: Features/https:
+ERROR - 2016-06-06 12:23:14 --> 404 Page Not Found: Features/https:
+ERROR - 2016-06-06 12:23:14 --> 404 Page Not Found: Features/https:
+ERROR - 2016-06-06 12:23:14 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-06-06 12:23:14 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-06-06 12:34:52 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-06-06 16:11:22 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 17:53:30 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 17:53:39 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 17:53:50 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 22:15:35 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 22:15:55 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 22:47:19 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-06-06 22:48:40 --> 404 Page Not Found: Robotstxt/index

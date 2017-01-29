@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-07-02 03:31:25 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 03:32:13 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-07-02 04:57:34 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 08:21:41 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 09:41:31 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 11:56:18 --> 404 Page Not Found: Https:/www.facebook.com
+ERROR - 2016-07-02 11:56:19 --> 404 Page Not Found: Https:/embed.tawk.to
+ERROR - 2016-07-02 11:56:19 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-07-02 11:56:19 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-07-02 11:56:19 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Https:/maxcdn.bootstrapcdn.com
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-07-02 11:56:20 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-07-02 13:26:39 --> 404 Page Not Found: Search_trends/index
+ERROR - 2016-07-02 14:46:39 --> 404 Page Not Found: Wp_loginphp/index
+ERROR - 2016-07-02 17:28:15 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 17:28:41 --> 404 Page Not Found: Lib/images
+ERROR - 2016-07-02 17:29:05 --> 404 Page Not Found: Gig_rank_checker/index
+ERROR - 2016-07-02 17:29:06 --> 404 Page Not Found: Gig_rank_checker/index
+ERROR - 2016-07-02 17:29:10 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-07-02 17:29:12 --> 404 Page Not Found: Faviconico/index
+ERROR - 2016-07-02 20:42:21 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 21:18:40 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-02 23:14:45 --> 404 Page Not Found: Robotstxt/index

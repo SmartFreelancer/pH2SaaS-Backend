@@ -1,0 +1,30 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2016-07-19 00:30:51 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 00:54:27 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 00:54:27 --> 404 Page Not Found: Ft/gig_optimizer
+ERROR - 2016-07-19 01:20:29 --> 404 Page Not Found: Lib/images
+ERROR - 2016-07-19 01:50:15 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 02:42:14 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 03:27:32 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 03:28:00 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 05:26:16 --> 404 Page Not Found: Ft/search_trends
+ERROR - 2016-07-19 07:12:10 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 07:45:53 --> 404 Page Not Found: Ft/index
+ERROR - 2016-07-19 13:12:40 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 13:54:06 --> 404 Page Not Found: Assets/images
+ERROR - 2016-07-19 15:11:47 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 17:54:45 --> 404 Page Not Found: Robotstxt/index
+ERROR - 2016-07-19 20:44:34 --> 404 Page Not Found: Https:/www.facebook.com
+ERROR - 2016-07-19 20:44:36 --> 404 Page Not Found: Https:/embed.tawk.to
+ERROR - 2016-07-19 20:44:36 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-07-19 20:44:36 --> 404 Page Not Found: Https:/oss.maxcdn.com
+ERROR - 2016-07-19 20:44:36 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-19 20:44:37 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-07-19 20:44:37 --> 404 Page Not Found: Https:/maxcdn.bootstrapcdn.com
+ERROR - 2016-07-19 20:44:37 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-19 20:44:37 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-19 20:44:38 --> 404 Page Not Found: Features/https:
+ERROR - 2016-07-19 20:44:38 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-07-19 20:44:38 --> 404 Page Not Found: Pricing/https:
+ERROR - 2016-07-19 23:36:15 --> 404 Page Not Found: Robotstxt/index
