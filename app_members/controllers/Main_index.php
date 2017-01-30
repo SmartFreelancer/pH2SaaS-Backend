@@ -45,10 +45,10 @@ $this->data['page_title'] = "Tools";
       }
       $this->data['user_tools'] = $tool_data;
 
-        $this->load->view('header', $this->data);
+      $this->load->view('header', $this->data);
       $this->load->view('head_nav', $this->data);
-        $this->load->view('tools/tools_dashboard', $this->data);
-        $this->load->view('footer', $this->data);
+      $this->load->view('tools/tools_dashboard', $this->data);
+      $this->load->view('footer', $this->data);
    }
 
    public function membership_disabled() {
