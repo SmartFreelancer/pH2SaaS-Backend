@@ -1,4 +1,5 @@
 /vendor
+.env
 composer.lock
 composer.phar
 *.log

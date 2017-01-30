@@ -12,9 +12,9 @@ class Payment extends MY_Controller
 
         //initialize payment gateways
         $this->gateway = Omnipay::create('PayPal_Express');
-        $this->gateway->setUsername('XXXXX_api1.XXXX.com');
-        $this->gateway->setPassword(XXXXXXXXXXX);
-        $this->gateway->setSignature(XXXX.XXXXXXXXXXXXXXX);
+        $this->gateway->setUsername(getend('PAYPAL_USERNAME'));
+        $this->gateway->setPassword(getend('PAYPAL_PASSWORD'));
+        $this->gateway->setSignature(getenv('PAYPAL_SIGNATURE'));
         $this->gateway->settestMode(false);
     }
 

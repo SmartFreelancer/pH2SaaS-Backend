@@ -1,0 +1,19 @@
+{
+    "name": "ph-7/marketing-saas-backend",
+    "description": "Backend of the Marketing SaaS CMS",
+    "type": "library",
+    "homepage": "http://ph7.me",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Pierre-Henry Soria",
+            "email": "phs@hizup.net",
+            "homepage": "http://about.ph7.me",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
