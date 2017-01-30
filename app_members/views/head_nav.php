@@ -51,7 +51,7 @@
                   </li>
                   <li class="divider"></li>
                   <li>
-                     <a href="mailto:support@fiverrtools.com?subject=Private Support"><i class="fa fa-support"></i> Private Support</a>
+                     <a href="mailto:<?= config_item('support_email'); ?>?subject=Private Support"><i class="fa fa-support"></i> Private Support</a>
                   </li>
                   <li class="divider"></li>
                   <li>
