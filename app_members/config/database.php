@@ -65,10 +65,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
     'dsn'    => '',
-    'hostname' => 'localhost',
-    'username' => 'fiverrto_user',
-    'password' => '3G{GiJyN+=U9',
-    'database' => 'fiverrto_account',
+    'hostname' => getenv('ACCOUNT_DB_HOST'),
+    'username' => getenv('ACCOUNT_DB_USER'),
+    'password' => getenv('ACCOUNT_DB_PWD'),
+    'database' => getenv('ACCOUNT_DB_NAME'),
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -88,10 +88,10 @@ $db['default'] = array(
 
 $db['tl'] = array(
     'dsn'    => '',
-    'hostname' => 'localhost',
-    'username' => 'fiverrto_tluser',
-    'password' => '3G{GiJyN+=U9',
-    'database' => 'fiverrto_tools',
+    'hostname' => getenv('TOOLS_DB_HOST'),
+    'username' => getenv('TOOLS_DB_USER'),
+    'password' => getenv('TOOLS_DB_PWD'),
+    'database' => getenv('TOOLS_DB_NAME'),
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -111,10 +111,10 @@ $db['tl'] = array(
 
 $db['billing'] = array(
     'dsn'    => '',
-    'hostname' => 'localhost',
-    'username' => 'fiverrto_billusr',
-    'password' => '3G{GiJyN+=U9',
-    'database' => 'fiverrto_billing',
+    'hostname' => getenv('BILLING_DB_HOST'),
+    'username' => getenv('BILLING_DB_USER'),
+    'password' => getenv('BILLING_DB_PWD'),
+    'database' => getenv('BILLING_DB_NAME'),
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
@@ -133,10 +133,10 @@ $db['billing'] = array(
 
 $db['comm'] = array(
     'dsn'    => '',
-    'hostname' => 'localhost',
-    'username' => 'fiverrto_cmuser',
-    'password' => '3G{GiJyN+=U9',
-    'database' => 'fiverrto_comm',
+    'hostname' => getenv('COMMUNITY_DB_HOST'),
+    'username' => getenv('COMMUNITY_DB_USER'),
+    'password' => getenv('COMMUNITY_DB_PWD'),
+    'database' => getenv('COMMUNITY_DB_NAME'),
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
