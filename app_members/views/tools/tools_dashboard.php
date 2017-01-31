@@ -27,10 +27,8 @@
                 <a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"><i class="fa fa-lg fa-fw fa fa-sitemap"></i> <span class="menu-item-parent">All Tools</a>
             </li>
             <li>
-            <a href="http://fiverrtools.com/support">
-<i class="fa fa-lg fa-fw fa-support"></i>
-Help & Support
-</a></li>
+                <a href="mailto:<?= config_item('support_email'); ?>?subject=Private Support"><i class="fa fa-lg fa-fw fa-support"></i>Help &amp; Support</a>
+            </li>
             <?php $this->load->view('quick_links'); ?>
         </ul>
     </nav>
