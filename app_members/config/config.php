@@ -1,34 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+require_once dirname(__DIR__, 2) . '/vendor/autoload.php';
+
+use Mcustiel\Config\ConfigLoader;
 use Mcustiel\Config\Drivers\Reader\ini\Reader as IniReader;
-use Mcustiel\Config\CacheConfig;
 
-use Mcustiel\SimpleCache\Drivers\memcache\Cache;
+$configLoader = new ConfigLoader(__DIR__ . '/app.ini', new IniReader);
+$iniConfig = $configLoader->load();
 
-$cacheManager->init();
-
-$loader = new ConfigLoader(
-    __DIR__ . '/app.ini',
-    new IniReader,
-    new CacheConfig(new Cache, 'app.ini.cache', 3600000)
-);
-$config = $loader->load();
-
-$config['support_email'] = $config->get('email')->get('support');
-
-// If the file is already cached, then next sentence loads it from cache; otherwise it's loaded
-// from original config file and then saved in the cached version.
-$config = $loader->load();
-
-function __autoload($classname) {
-    if (strpos($classname, 'CI_') !== 0) {
-        $file = APPPATH . 'libraries/' . $classname . '.php';
-        if (file_exists($file) && is_file($file)) {
-            @include_once($file);
-        }
-    }
-}
+$config['support_email'] = $iniConfig->get('email')->get('support');
 
 /*
 |--------------------------------------------------------------------------

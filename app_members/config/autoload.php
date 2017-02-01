@@ -1,8 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-require_once __DIR__ . '/../../vendor/autoload.php';
-require_once 'environment.php';
+require_once dirname(__DIR__, 2) . '/vendor/autoload.php';
+require_once dirname(__DIR__, 2) . '/environment.php';
 
 /*
 | -------------------------------------------------------------------
