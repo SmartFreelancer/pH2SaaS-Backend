@@ -3,7 +3,8 @@
 <div class="container mw850">
     <div class="row">
         <div class="col-md-6 text-left">
-            <span class="copyright text-muted">Copyright &copy; 2015 <b>Fiverr Tools</b> - All Rights Reserved.</span>
+            <span class="copyright text-muted">Copyright &copy; 2015-<?= date('Y') ?> <strong>Fiverr Tools</strong> - All Rights Reserved.</span><br />
+            <span class="text-muted">Fiverr is a trademark of Fiverr International Ltd. FiverrTools.com is not owned or sponsored by Fiverr International Ltd.</span>
         </div>
         <div class="col-md-6 text-right">
             <ul class="list-inline social-buttons">
