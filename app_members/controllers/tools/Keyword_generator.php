@@ -53,7 +53,7 @@ class Keyword_generator extends MY_Controller {
 
    private function keyword_response($keywords) {
       $keywords_list = array();
-      $data = page_get('http://suggestqueries.google.com/complete/search?output=firefox&client=firefox&hl=en-US&q='.urlencode($keywords));
+      $data = page_get('https://suggestqueries.google.com/complete/search?output=firefox&client=firefox&hl=en-US&q=' . urlencode($keywords));
       if (($data = json_decode($data, true)) !== null) {
          $keywords_list = $data[1];
       }
