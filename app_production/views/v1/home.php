@@ -3,8 +3,9 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-6">
                 <div class="product-hero">
-                    <h1>Tools For Fiverr Sellers</h1>
-                    <p>Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers.</p>
+                    <h1>Tools to Automate the <strong>Marketing</strong> of your <strong>Android Apps</strong></h1>
+                    <p class="italic"><small>(and <strong>Progressive Web Apps</strong> as well!)</small></p>
+                    <p>Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your apps. It’s all possible with our groundbreaking marketing tools for Android publishers.</p>
                     <div class="row">
                         <div class="col-xs-6">
                             <div class="price-tag text-center">

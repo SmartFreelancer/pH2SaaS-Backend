@@ -7,8 +7,8 @@
         <title><?= $site_name; ?> - <?= $page_title; ?></title>
 
         <meta property="og:type"        content="op-hashtags:fiverrtools">
-        <meta property="og:image" content="http://fiverrtools.com/v1_assets/images/share-thumbnail.jpg" />
-        <meta property="og:url"         content="http://fiverrtools.com">
+        <meta property="og:image" content="<?= base_url(); ?>v1_assets/images/share-thumbnail.jpg" />
+        <meta property="og:url"         content="<?= base_url(); ?>">
         <meta property="og:title"       content="Fiverr Tools - Tools For Fiverr Sellers">
         <meta property="og:description" content="Fiverr Tools - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers. #fiverrtools">
 
@@ -73,7 +73,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= base_url(); ?>">Fiverr Tools</a>
+                    <!-- <a class="navbar-brand" href="<?= base_url(); ?>"><img src="<?= base_url(); ?>v1_assets/images/logos/appninja.png" alt="AppNinja" /></a> -->
+                    <a class="navbar-brand" href="<?= base_url(); ?>">AppNinja</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
