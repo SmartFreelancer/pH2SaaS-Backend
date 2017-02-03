@@ -55,7 +55,6 @@
                     <img class="img-responsive" alt="Fiverr Tools" src="<?= base_url(); ?>v1_assets/images/boost-sale.png">
                     <br>
                     </center>
-                    <a href="https://www.jvzoo.com/b/0/180027/3"><img src="http://i.jvzoo.com/0/180027/3" alt="Fiverr Tools" border="0" /></a>
                 </div>
                 <div class="col-md-6">
                     <h2 style="font-weight: 600;">Make DOUBLE What You Do Now</h2>
@@ -110,9 +109,6 @@
                         <br><br>
                         <img class="img-responsive" src="<?= base_url(); ?>v1_assets/images/intro.gif">
                         <br><br>
-                        <center>
-<a href="https://www.jvzoo.com/b/0/180027/3"><img src="http://i.jvzoo.com/0/180027/3" alt="Fiverr Tools" border="0" /></a>
-                        </center>
                 </div>
             </section><section>
                 <div class="container">
