@@ -113,7 +113,7 @@
                         <br><br>
                         <h3 class="text-center">Sign up for even more benefits!</h3>
 
-                        <a class="btn btn-action btn-lg" href="#">Get Started Now</a>
+                        <a class="btn btn-action btn-lg" href="<?= base_url(); ?>payment/membership/1" rel="nofollow">Get Started Now</a>
                         </center>
                 </div>
             </section><section>
@@ -121,7 +121,7 @@
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <h2 class="section-heading" style="text-transform: uppercase; font-size: 30px; font-weight: 700;">Some of the tools on the inside</h2>
-                             <h3 class="section-subheading text-muted"><a href="<?= base_url(); ?>payment/membership/1">Sign up now</a> to have access to all these tools and more.</h3>
+                             <h3 class="section-subheading text-muted"><a href="<?= base_url(); ?>payment/membership/1" rel="nofollow">Sign up now</a> to have access to all these tools and more.</h3>
                         </div>
                     </div>
                     <div class="row text-center">
@@ -175,7 +175,7 @@
                                     <p>Sign up with one low cost and get exclusive access to the world’s only freelancing tools designed specifically for Fiverr sellers.</p>
                                     <br>
                                     <center>
-                                    <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
+                                    <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1" rel="nofollow">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
                                     </center>
                                 </div>
                                 <div id="pricing-right" class="col-sm-4">
