@@ -10,7 +10,7 @@ class MY_Controller extends CI_Controller {
         $this->form_validation->set_error_delimiters($this->config->item('error_start_delimiter', 'ion_auth'), $this->config->item('error_end_delimiter', 'ion_auth'));
         $this->lang->load('auth');
 
-        $this->data['site_title'] = "Fiverr Tools - ";
+        $this->data['site_title'] = $this->config->item('app_name') . ' - ';
         $this->data['user'] = $this->ion_auth->user()->row();
 
         // Login check

@@ -13,7 +13,7 @@
       <link rel="stylesheet" type="text/css" media="screen" href="<?= base_url(); ?>assets/css/smartadmin-production-plugins.min.css">
       <link rel="stylesheet" type="text/css" media="screen" href="<?= base_url(); ?>assets/css/smartadmin-production.min.css">
 
-        <link rel="shortcut icon" href="http://fiverrtools.com/v1_assets/images/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="<?= base_url(); ?>v1_assets/images/favicon.ico" type="image/x-icon"/>
       <style type="text/css">
 
 #extr-page #header #logo img {
@@ -42,11 +42,11 @@
    <body class="animated fadeIn">
 
       <header id="header">
-            <span id="logo">Fiverr Tools</span>
+            <span id="logo"><?= config_item('app_name') ?></span>
 
          <span id="extr-page-header-space">
                <span class="hidden-xs">Need an Account?</span>
-               <a class="btn btn-danger" href="http://fiverrtools.com/pricing"><i class="fa fa-users"></i> <span class="hidden-xs">Create Account</span></a>
+               <a class="btn btn-danger" href="<?= base_url(); ?>pricing"><i class="fa fa-users"></i> <span class="hidden-xs">Create Account</span></a>
 
 </div>
       </header>

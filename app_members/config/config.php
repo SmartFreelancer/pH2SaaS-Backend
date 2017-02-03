@@ -9,6 +9,7 @@ use Mcustiel\Config\Drivers\Reader\ini\Reader as IniReader;
 $configLoader = new ConfigLoader(__DIR__ . '/app.ini', new IniReader);
 $iniConfig = $configLoader->load();
 
+$config['app_name'] = $iniConfig->get('app')->get('name');
 $config['support_email'] = $iniConfig->get('email')->get('support');
 
 /*

@@ -3,7 +3,7 @@
    <header id="header">
 
       <div id="logo-group">
-         <span id="logo"> <a href="<?= base_url(); ?>"> Fiverr Tools </a> </span>
+         <span id="logo"> <a href="<?= base_url(); ?>"><?= config_item('app_name') ?></a> </span>
       </div>
 
       <div class="head-links hidden-sm hidden-xs">
