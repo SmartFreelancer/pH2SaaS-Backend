@@ -19,7 +19,6 @@
 #extr-page #header #logo img {
     width: 300px;
 }
-
 #extr-page #header #logo {
     margin-top: 0;
 }
@@ -28,7 +27,6 @@
             font-weight: 600;
             color: #444;
          }
-
 #extr-page #header #logo {
     color: #555;
     font-size: 30px;
@@ -46,7 +44,7 @@
 
          <span id="extr-page-header-space">
                <span class="hidden-xs">Need an Account?</span>
-               <a class="btn btn-danger" href="<?= base_url(); ?>pricing"><i class="fa fa-users"></i> <span class="hidden-xs">Create Account</span></a>
+               <a class="btn btn-danger" href="/pricing"><i class="fa fa-users"></i> <span class="hidden-xs">Create Account</span></a>
 
 </div>
       </header>
