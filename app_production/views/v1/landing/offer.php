@@ -36,11 +36,9 @@
             <div class="col-sm-6 col-sm-offset-3">
                 <button type="submit" class="btn btn-action btn-lg btn-block">Submit</button>
                 <br>
-                <center>
-                                <span id="process-loader" style="display:none">
-                    <img src="<?= base_url('v1_assets/images/ajax-loader.gif'); ?>">
-                </span>
-                </center>
+                <div class="center">
+                    <span id="process-loader" style="display:none"><img src="<?= base_url('v1_assets/images/ajax-loader.gif'); ?>" alt="Loading"></span>
+                </div>
             </div>
         </div>
     </section>

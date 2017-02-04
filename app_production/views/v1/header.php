@@ -7,12 +7,12 @@
         <title><?= $site_name; ?> - <?= $page_title; ?></title>
 
         <meta property="og:type"        content="op-hashtags:fiverrtools">
-        <meta property="og:image" content="http://fiverrtools.com/v1_assets/images/share-thumbnail.jpg" />
-        <meta property="og:url"         content="http://fiverrtools.com">
-        <meta property="og:title"       content="Fiverr Tools - Tools For Fiverr Sellers">
-        <meta property="og:description" content="Fiverr Tools - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers. #fiverrtools">
+        <meta property="og:image" content="<?= base_url(); ?>v1_assets/images/share-thumbnail.jpg" />
+        <meta property="og:url"         content="<?= base_url(); ?>">
+        <meta property="og:title"       content="SmartFreelancer.top - Tools For Fiverr Sellers">
+        <meta property="og:description" content="SmartFreelancer.top - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers. #fiverrtools">
 
-        <meta name="description" content="Fiverr Tools - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers.">
+        <meta name="description" content="SmartFreelancer - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers.">
         <meta name="keywords" content="fiverr,tools,gigs,sellers, fiverr tools,">
 
         <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -85,12 +85,12 @@
                             <a href="<?= base_url(); ?>pricing">Pricing</a>
                         </li>
                         <li>
-                            <a href="http://members.fiverrtools.com">Community</a>
+                            <a href="http://members.smartfreelancer.top">Community</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                            <a class="btn btn-outline" href="http://members.fiverrtools.com">Login</a>
+                            <a class="btn btn-outline" href="http://members.smartfreelancer.top">Login</a>
                         </li>
                         <li>
                             <a class="btn btn-primary" href="#" data-toggle="modal" data-link="<?= base_url(); ?>auth/lead" data-target="#get-started">Get Started</a>

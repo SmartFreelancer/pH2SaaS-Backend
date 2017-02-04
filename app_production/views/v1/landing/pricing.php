@@ -14,9 +14,9 @@
                         <h3>One Price Full Premium Access.</h3>
                         <p>Sign up with one low cost and get exclusive access to the world’s only freelancing tools designed specifically for Fiverr sellers.</p>
                         <br>
-                        <center>
-                        <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
-                        </center>
+                        <div class="center">
+                            <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
+                        </div>
                     </div>
                     <div id="pricing-right" class="col-sm-4">
                         <div class="price-tag text-center">
@@ -42,10 +42,9 @@
 </section>
 <section id="contact">
     <div class="container text-center">
-        <h2 class="section-heading">Joining Fiverr Tools </h2>
+        <h2 class="section-heading">Joining <strong>Smart Freelancer</strong></h2>
         <h3>is a big step in boosting your freelancing earnings.</h3>
-        <center>
-        <a href="#" data-toggle="modal" data-link="<?= base_url(); ?>auth/lead" data-target="#get-started" class="btn btn-footer">Get Started Now <span>For Just $<?= $default_price; ?> USD</span>
-        </a>
-        </center>
+        <div class="center">
+            <a href="#" data-toggle="modal" data-link="<?= base_url(); ?>auth/lead" data-target="#get-started" class="btn btn-footer">Get Started Now <span>For Just $<?= $default_price; ?> USD</span></a>
+        </div>
     </div>

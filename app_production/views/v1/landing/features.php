@@ -6,10 +6,10 @@
             <div class="col-md-6">
                 <div class="center" style="margin-left: -105px;">
                     <p><img class="img-responsive" alt="Smart Freelancer, Fiverr Marketing Tools" title="Smart Freelancer, Fiverr Marketing Tools" src="<?= base_url('v1_assets/images/overview.png') ?>"></p>
-                    <p><img class="img-responsive" alt="" src="<?= base_url(); ?>v1_assets/images/arrow.png"></p>
+                    <p><img class="img-responsive" alt="" src="<?= base_url('v1_assets/images/arrow.png') ?>"></p>
                 </div>
-
             </div>
+
             <div class="col-md-6">
                 <h1 style="font-weight: 600;">Tools to Grow Your Fiverr Freelancing Business</h1>
                 <h3>Achieving success in business is harder without the right tools to help increase your reach. </h3>
@@ -104,9 +104,7 @@
             <div class="container">
                         <h1 style="font-weight: 800;">Easy To Use Tools</h1>
                         <h3>Becoming more successful on Fiverr is now as easy as the click of a mouse. No specials skills are required to use our simple and innovative Fiverr tools for freelancers.</h3>
-                        <br><br>
-                        <img class="img-responsive" src="<?= base_url(); ?>v1_assets/images/intro2.gif">
-                        <br><br>
+                        <p><img class="img-responsive" alt="Fiverr Marketing Tools - Intro Demo" src="<?= base_url('v1_assets/images/intro2.gif') ?>"></p>
                         <div class="center">
                             <h3>Not Just Tools</h3>
                             <h2 style="font-style: italic; font-size: 25px; font-weight: 600;">But a community that has your back!</h2>
@@ -125,37 +123,37 @@
                     </div>
                     <div class="row text-center">
                         <div class="col-xs-6 col-sm-4 mb50">
-                            <div class="service-icon"> <img src="http://members.smartfreelancer.top/assets/img/tools/gig-analyzer.png" > </div>
+                            <div class="service-icon"> <img alt="Fiverr Gig Analyzer" src="http://members.smartfreelancer.top/assets/img/tools/gig-analyzer.png"></div>
                             <h4 class="service-heading">Gig Analyzer</h4>
                             <p style="font-size: 16px; color: #666;">Get your Gigs analyzed by our team of experts, who will work with you to improve your Gigs and get more sales.</p>
                         </div>
                         <div class="col-xs-6 col-sm-4 mb50">
-                            <div class="service-icon"> <img src="http://members.smartfreelancer.top/assets/img/tools/gig-rank-checker.png" > </div>
+                            <div class="service-icon"> <img alt="Gig Rank Checker" src="http://members.smartfreelancer.top/assets/img/tools/gig-rank-checker.png"></div>
 
                             <h4 class="service-heading">Gig Rank Checker</h4>
                             <p style="font-size: 16px;" color: #666;>See where your Gigs are currently ranking in the category that they are in. Get details result on how your Gigs are performing.</p>
                         </div>
                         <div class="col-xs-6 col-sm-4 mb50">
-                            <div class="service-icon"> <img src="http://members.smartfreelancer.top/assets/img/tools/category-sniffer.png" > </div>
+                            <div class="service-icon"> <img alt="Category Sniffer" src="http://members.smartfreelancer.top/assets/img/tools/category-sniffer.png"></div>
 
                             <h4 class="service-heading">Category Sniffer</h4>
                             <p style="font-size: 16px; color: #666;">Spy on the different categories to see what competition is like. Get detailed result that will help you to choose the right category for your Gigs.</p>
                         </div>
 
                   <div class="col-xs-6 col-sm-4 mb50">
-                            <div class="service-icon"> <img src="http://members.smartfreelancer.top/assets/img/tools/keyword-generator.png" > </div>
+                            <div class="service-icon"> <img alt="Keyword Generator" src="http://members.smartfreelancer.top/assets/img/tools/keyword-generator.png"></div>
                             <h4 class="service-heading">Keyword Generator</h4>
                             <p style="font-size: 16px; color: #666;">Get insight of what buyers are searching for on fiverr, use this data to optimize your Gigs by getting keywords suggestion to improve your ranking within Fiverr search.</p>
                         </div>
 
                         <div class="col-xs-6 col-sm-4 mb50">
-                            <div class="service-icon"> <img src="http://members.smartfreelancer.top/assets/img/tools/gig_image_creator.png" > </div>
+                            <div class="service-icon"> <img alt="Fiverr Gig image Creator" src="http://members.smartfreelancer.top/assets/img/tools/gig-image-creator.png"></div>
 
                             <h4 class="service-heading">Gig Image Creator</h4>
                             <p style="font-size: 16px; color: #666;">Great awesome images for your Gigs let your gigs stand out more from the crowd.</p>
                         </div>
                         <div class="col-xs-6 col-sm-4 mb50">
-                            <div class="service-icon"> <img src="http://members.smartfreelancer.top/assets/img/tools/search-ranking.png" > </div>
+                            <div class="service-icon"> <img alt="Search Ranking" src="http://members.smartfreelancer.top/assets/img/tools/search-ranking.png"></div>
 
                             <h4 class="service-heading">Search Ranking</h4>
                             <p style="font-size: 16px; color: #666;">Check where all of your Gigs are ranking for a specific keyword; check by ratings, category or globally.</p>

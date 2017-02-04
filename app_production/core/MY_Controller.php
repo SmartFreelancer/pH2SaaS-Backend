@@ -12,9 +12,9 @@ class MY_Controller extends CI_Controller
         $this->data['user'] = $this->ion_auth->user()->row();
 
         // Admin Configuratons
-        $this->data['site_name'] = "Fiverr Tools";
-        $this->data['general_email'] = "support@fiverrtools.com";
-        $this->data['payment_company_name'] = "Fiverr Tools";
+        $this->data['site_name'] = $this->config->item('app_name');
+        $this->data['general_email'] = $this->config->item('support_email');
+        $this->data['payment_company_name'] = $this->config->item('app_name');
         $this->data['require_username'] = TRUE;
         $this->data['lead_url'] = base_url().'payment/membership/1';
     }

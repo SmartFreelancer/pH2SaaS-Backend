@@ -82,7 +82,7 @@
                                         <div class="col-md-6 text-center">
                                             <h1 class="font-400"><?= $invoice->p_status; ?></h1>
                                             <?php if ($invoice->status == 0) { ?>
-                                            <a class="btn btn-primary btn-lg" href="http://fiverrtools.com/payment/membership/<?= $invoice->plan_id; ?>/<?= $invoice->inv_id; ?>">Pay Now</a>
+                                            <a class="btn btn-primary btn-lg" href="<?= base_url(); ?>payment/membership/<?= $invoice->plan_id; ?>/<?= $invoice->inv_id; ?>">Pay Now</a>
                                             <?php } ?>
                                         </div>
                                     </div>

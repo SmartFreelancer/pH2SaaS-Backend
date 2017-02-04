@@ -31,12 +31,11 @@
 </header>
 <section id="services">
 <div class="container">
-    <center>
-    <h2 class="section-heading">The World’s First Platform for Fiverr Sellers</h2>
-    <h3 class="section-subheading text-muted mbn" style="margin-bottom: 0;">Helping you to become more than average.</h3>
-    <br><br><br><br>
-    <img src="<?= base_url(); ?>v1_assets/images/intro.gif" class="img-responsive">
-    </center>
+    <div class="center">
+        <h2 class="section-heading">The World’s First Platform for Fiverr Sellers</h2>
+        <h3 class="section-subheading text-muted mbn" style="margin-bottom: 0;">Helping you to become more than average.</h3>
+        <p><img src="<?= base_url('v1_assets/images/intro.gif') ?>" class="img-responsive"></p>
+    </div>
 </div>
 </section>
 <section class="pricing-holder gray">
@@ -49,9 +48,9 @@
                     <h3>One Price Full Premium Access.</h3>
                     <p>Sign up with one low cost and get exclusive access to the world’s only freelancing tools designed specifically for Fiverr sellers.</p>
                     <br>
-                    <center>
-                    <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
-                    </center>
+                    <div class="center">
+                        <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
+                </div>
                 </div>
                 <div id="pricing-right" class="col-sm-4">
                     <div class="price-tag text-center">
@@ -79,7 +78,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <h2>Increase your earnings... Fiverr Tools work! </h2>
+            <h2>Increase your earnings... Smart Freelancer works! </h2>
             <p>Many Fiverr sellers have used our tools to boost their profits. Sign up today and watch your earnings grow too.</p>
             <br><br>
             <button data-toggle="modal" data-link="<?= base_url(); ?>auth/lead" data-target="#get-started" class="btn btn-primary btn-lg">Increase Your Earnings</button>
@@ -99,7 +98,7 @@
                         <h3 style="" data-selector="h3">Mathew Welby</h3>
                     </div>
                 </div>
-                <p style="" data-selector="p" class="testi-text">Fiverr Tools is a competitively priced tool with some great functionality. One of the nicest parts of Fiverr Tools is that it’s very simple to use.</p>
+                <p style="" data-selector="p" class="testi-text">Smart Freelancer is a competitively priced tool with some great functionality. One of the nicest parts of Smart Freelancer is that it’s very simple to use.</p>
             </div>
         </div>
         <div class="col-sm-4">
@@ -109,7 +108,7 @@
                         <h3 style="" data-selector="h3">Jake M.</h3>
                     </div>
                 </div>
-                <p style="" data-selector="p" class="testi-text">Fiverr Tools allows us to see what our competitors are doing so we can see what’s working and what’s not within our niche.</p>
+                <p style="" data-selector="p" class="testi-text">Smart Freelancer allows us to see what our competitors are doing so we can see what’s working and what’s not within our niche.</p>
             </div>
         </div>
 
@@ -129,7 +128,7 @@
 <div class="astyle">
 <a class="button button-full button-default text-center" href="<?= base_url(); ?>features">
 <div class="container clearfix">
-    See how Fiverr Tools can work for you and your freelancing business
+    See how <strong>Smart Freelancer</strong> can work for you and your freelancing business
     <strong>See Features</strong>
     <i class="icon-caret-right" style="top:4px;"></i>
 </div>

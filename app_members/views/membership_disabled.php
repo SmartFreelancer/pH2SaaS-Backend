@@ -16,7 +16,7 @@
 
             <br><br>
             <center>
-            <a href="http://fiverrtools.com/payment/membership/1" class="btn btn-lg btn-primary" style="font-weight: 800; font-size: 20px; background: #fa8144; border-color: #d97240;">$9.99 Pay Membership Now <span style="display: block; font-size: 15px; font-weight: 500;"> Payment via PayPal</span></a>
+            <a href="<?= base_url(); ?>payment/membership/1" class="btn btn-lg btn-primary" style="font-weight: 800; font-size: 20px; background: #fa8144; border-color: #d97240;">$9.99 Pay Membership Now <span style="display: block; font-size: 15px; font-weight: 500;"> Payment via PayPal</span></a>
             </center>
 
          </div>
