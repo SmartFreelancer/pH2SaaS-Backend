@@ -18,5 +18,8 @@
         "mcustiel/php-simple-config": "^2.0",
         "omnipay/paypal": "^2.6",
         "omnipay/stripe": "^2.4"
-    }
+    },
+    "autoload": {
+         "classmap": ["app_members/libraries"]
+     }
 }
