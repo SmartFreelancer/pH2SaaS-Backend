@@ -7,13 +7,13 @@
         <title><?= $site_name; ?> - <?= $page_title; ?></title>
 
         <meta property="og:type"        content="op-hashtags:fiverrtools">
-        <meta property="og:image" content="<?= base_url(); ?>v1_assets/images/share-thumbnail.jpg" />
+        <meta property="og:image" content="<?= base_url('v1_assets/images/share-thumbnail.jpg') ?>" />
         <meta property="og:url"         content="<?= base_url(); ?>">
         <meta property="og:title"       content="SmartFreelancer.top - Tools For Fiverr Sellers">
         <meta property="og:description" content="SmartFreelancer.top - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers. #fiverrtools">
 
         <meta name="description" content="SmartFreelancer - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers.">
-        <meta name="keywords" content="fiverr,tools,gigs,sellers, fiverr tools,">
+        <meta name="keywords" content="fiverr,tools,gigs,sellers, fiverr tools,freelancer,freelance">
 
         <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= base_url(); ?>">Fiverr Tools</a>
+                    <a class="navbar-brand" href="<?= base_url(); ?>"><?= config_item('app_name') ?></a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
