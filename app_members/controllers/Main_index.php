@@ -1,18 +1,19 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Main_index extends MY_Controller {
-
-   public function __construct() {
+class Main_index extends MY_Controller
+{
+   public function __construct()
+   {
       parent::__construct();
    }
 
-   public function index() {
-
+   public function index()
+   {
       if ($this->ion_auth->logged_in()) {
          redirect('dashboard');
       } else {
-redirect('login');
-}
+         redirect('login');
+   }
 
 
    /*   $this->data['page_title'] = "Supercharge your freelance earnings";
@@ -22,10 +23,11 @@ redirect('login');
       $this->load->view('footer', $this->data); */
    }
 
-   public function dashboard() {
-           $this->load->model("tools_mdl");
+   public function dashboard()
+   {
+      $this->load->model("tools_mdl");
 
-$this->data['page_title'] = "Tools";
+      $this->data['page_title'] = "Tools";
 
       $this->data['all_tools'] = $this->tools_mdl->get_tools(array("status >=" => "1"));
       $this->data['gig_tools'] = $this->tools_mdl->get_tools(array("tool_type" => "0", "status >=" => "1",));
@@ -51,7 +53,8 @@ $this->data['page_title'] = "Tools";
       $this->load->view('footer', $this->data);
    }
 
-   public function membership_disabled() {
+   public function membership_disabled()
+   {
       $this->data['page_title'] = "Upgrade Your Account";
 
       $this->load->view('header', $this->data);
@@ -59,6 +62,4 @@ $this->data['page_title'] = "Tools";
       $this->load->view('membership_disabled', $this->data);
       $this->load->view('footer', $this->data);
    }
-
-
 }
