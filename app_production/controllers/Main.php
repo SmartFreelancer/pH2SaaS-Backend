@@ -3,16 +3,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Main extends FrontEnd_Controller
 {
-
     function __construct() {
         parent::__construct();
-        $this->data['default_price'] = "9.95";
-        $this->data['price_dollar'] = "9";
-        $this->data['price_cents'] = "95";
+        $this->data['default_price'] = '9.95';
+        $this->data['price_dollar'] = '9';
+        $this->data['price_cents'] = '95';
     }
 
     public function index() {
-        $this->data['page_title'] = "Tools For Fiverr Sellers";
+        $this->data['page_title'] = 'Marketing Tools For Fiverr Sellers';
 
         $this->load->view('v1/header', $this->data);
         $this->load->view('v1/home', $this->data);
@@ -20,7 +19,7 @@ class Main extends FrontEnd_Controller
     }
 
     public function features() {
-        $this->data['page_title'] = "Fiverr Tools Features";
+        $this->data['page_title'] = 'Marketing Fiverr Tools Features';
 
         $this->load->view('v1/header', $this->data);
         $this->load->view('v1/landing/features', $this->data);
@@ -28,7 +27,7 @@ class Main extends FrontEnd_Controller
     }
 
     public function pricing() {
-        $this->data['page_title'] = "Pricing";
+        $this->data['page_title'] = 'Pricing';
 
         $this->load->view('v1/header', $this->data);
         $this->load->view('v1/landing/pricing', $this->data);
@@ -36,7 +35,7 @@ class Main extends FrontEnd_Controller
     }
 
     public function offer() {
-        $this->data['page_title'] = "Special Offer Contribute";
+        $this->data['page_title'] = 'Special Offer Contribute';
 
         $this->load->view('v1/header', $this->data);
         $this->load->view('v1/landing/offer', $this->data);
@@ -44,7 +43,7 @@ class Main extends FrontEnd_Controller
     }
 
     public function jvzoo() {
-        $this->data['page_title'] = "jvzoo";
+        $this->data['page_title'] = 'JVZoo, Marketing Tools for Busy Freelancers';
 
         $this->load->view('v1/header2', $this->data);
         $this->load->view('v1/landing/jvzoo', $this->data);

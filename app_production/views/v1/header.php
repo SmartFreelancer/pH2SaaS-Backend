@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title><?= $site_name; ?> - <?= $page_title; ?></title>
+        <title><?= $page_title; ?> - <?= $site_name; ?></title>
 
-        <meta property="og:type"        content="op-hashtags:fiverrtools">
+        <meta property="og:type" content="op-hashtags:fiverrtools">
         <meta property="og:image" content="<?= base_url('v1_assets/images/share-thumbnail.jpg') ?>" />
-        <meta property="og:url"         content="<?= base_url(); ?>">
-        <meta property="og:title"       content="SmartFreelancer.top - Tools For Fiverr Sellers">
+        <meta property="og:url" content="<?= base_url(); ?>">
+        <meta property="og:title" content="SmartFreelancer.top - Tools For Fiverr Sellers">
         <meta property="og:description" content="SmartFreelancer.top - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers. #fiverrtools">
 
         <meta name="description" content="SmartFreelancer - Be more visible to clients on Fiverr. Improve your search rankings. Earn more from your gigs. It’s all possible with our groundbreaking freelancing tools for Fiverr sellers.">
