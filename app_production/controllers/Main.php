@@ -42,6 +42,14 @@ class Main extends FrontEnd_Controller
         $this->load->view('v1/footer', $this->data);
     }
 
+    public function team() {
+        $this->data['page_title'] = 'SmartFreelancer Team';
+
+        $this->load->view('v1/header', $this->data);
+        $this->load->view('v1/landing/team', $this->data);
+        $this->load->view('v1/footer', $this->data);
+    }
+
     public function jvzoo() {
         $this->data['page_title'] = 'JVZoo, Marketing Tools for Busy Freelancers';
 

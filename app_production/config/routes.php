@@ -61,3 +61,4 @@ $route['pricing'] = 'main/pricing';
 $route['features'] = 'main/features';
 $route['offer'] = 'main/offer';
 $route['jvzoo'] = 'main/jvzoo';
+$route['team'] = 'main/team';
