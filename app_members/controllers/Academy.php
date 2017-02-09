@@ -148,7 +148,7 @@ class Academy extends MY_Controller {
       $get_download = $this->academy_mdl->get_lesson_dloads_byid(array("dl_id" => $download_id));
       $this->load->helper('download');
 
-      $data = file_get_contents("uploads/academy/downloads/".$get_download->dload_link."");
+      $data = file_get_contents('uploads/academy/downloads/' . $get_download->dload_link);
       $name = $get_download->title.".".$get_download->extension."";
       force_download($name, $data);
    }
