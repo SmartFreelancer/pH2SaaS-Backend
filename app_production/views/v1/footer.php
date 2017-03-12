@@ -8,9 +8,9 @@
         </div>
         <div class="col-md-6 text-right">
             <ul class="list-inline social-buttons">
-                <li><a href="http://facebook.com/fiverrtools" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <li><a href="http://twitter.com/fiverrtools" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
+                    <li><a href="http://facebook.com/fiverrtools" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <li><a href="http://twitter.com/fiverrtools" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="<?= base_url('team'); ?>">Team</a></li>
                 </ul>
             </div>
         </div>
