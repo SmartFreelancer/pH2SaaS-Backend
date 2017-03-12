@@ -58,7 +58,7 @@
                                  <div class="col-md-10 col-md-offset-1">
                                     <div class="form-group">
                                        <p>
-                                          <label for="targetearning">Desire Net Monthly Income: $</label> 
+                                          <label for="targetearning">Desire Net Monthly Income: $</label>
                                              <input type="number" name="targetearning" id="targetearning" required="required" onchange="calculateResult()" />
                                        </p>
                                        <p>
@@ -79,7 +79,7 @@
                                        </p>
                                        <div id="otherBox" class="hidden">
                                           <label for="otherField" class="inlinelabel"><em>If more, please enter how much:</em></label>
-                                          <input name="otherField" type="number" onchange="calculateResult()"/> 
+                                          <input name="otherField" type="number" onchange="calculateResult()"/>
                                        </div>
 
                                       <hr>
@@ -91,7 +91,7 @@
                                        <input type="text" disabled="disabled" id="ordersPerMonth" />
                                     </p>
                                     <p>
-                                       <label for="yearlyEarning" class="inlinelabel">Yearly Earnings (USD):</label> 
+                                       <label for="yearlyEarning" class="inlinelabel">Yearly Earnings (USD):</label>
                                        <input type="text" disabled="disabled" id="yearlyEarning" />
                                     </p>
                                  </div>
