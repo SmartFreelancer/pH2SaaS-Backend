@@ -46,7 +46,7 @@
             <div class="row">
                 <div id="pricing-left" class="col-sm-8">
                     <h3>One Price Full Premium Access.</h3>
-                    <p>Sign up with one low cost and get exclusive access to the world’s only freelancing tools designed specifically for Fiverr sellers.</p>
+                    <p>Sign up with one low cost and get exclusive access to the world's only freelancing tools designed specifically for Fiverr sellers.</p>
                     <br>
                     <div class="center">
                         <a class="btn btn-lg btn-action block" href="<?= base_url(); ?>payment/membership/1">$<?= $default_price; ?> Sign Up Now <span>Payment via Paypal</span></a>
