@@ -135,10 +135,6 @@ class Account extends MY_Controller {
    }
 
    public function register() {
-
-
-
-
       // check if the user is coming from jvzoo
 /*      if( isset( $this->input->post('ctransaction') )) {
          redirect('/'); // redirect to sales page
@@ -223,7 +219,6 @@ var_dump($calcedVerify == $this->input->get("cverify"));
       $this->form_validation->set_rules('password', 'Password', 'required');
 
       if ($this->form_validation->run() == true) {
-
          //check to see if the user is logging in
          //check for "remember me"
          $remember = (bool) $this->input->post('remember');
@@ -277,9 +272,7 @@ var_dump($calcedVerify == $this->input->get("cverify"));
          $this->form_validation->set_rules('email', $this->lang->line('forgot_password_validation_email_label'), 'required|valid_email');
       }
 
-
       if ($this->form_validation->run() == false) {
-
          if ( $this->config->item('identity', 'ion_auth') == 'username' ){
             $this->data['identity_label'] = $this->lang->line('forgot_password_username_identity_label');
          } else {
@@ -359,7 +352,7 @@ var_dump($calcedVerify == $this->input->get("cverify"));
             $this->data['new_password'] = array(
                'name' => 'new',
                'id'   => 'new',
-            'type' => 'password',
+               'type' => 'password',
                'pattern' => '^.{'.$this->data['min_password_length'].'}.*$',
             );
             $this->data['new_password_confirm'] = array(
@@ -423,8 +416,6 @@ var_dump($calcedVerify == $this->input->get("cverify"));
       }
    }
 
-
-
    function _get_csrf_nonce() {
       $this->load->helper('string');
       $key   = random_string('alnum', 8);
@@ -436,14 +427,14 @@ var_dump($calcedVerify == $this->input->get("cverify"));
    }
 
    function _valid_csrf_nonce() {
-      if ($this->input->post($this->session->flashdata('csrfkey')) !== FALSE &&
+      if ($this->input->post($this->session->flashdata('csrfkey')) !== false &&
          $this->input->post($this->session->flashdata('csrfkey')) == $this->session->flashdata('csrfvalue'))
       {
-         return TRUE;
+         return true;
       }
       else
       {
-         return FALSE;
+         return false;
       }
    }
 
@@ -456,5 +447,4 @@ var_dump($calcedVerify == $this->input->get("cverify"));
       if (!$render) return $view_html;
    }
 
-} /* End of file Account.php */
-/* Location: ./application/models/Account.php */
+}
