@@ -64,7 +64,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-    'dsn'    => '',
+    'dsn' => '',
     'hostname' => getenv('ACCOUNT_DB_HOST'),
     'username' => getenv('ACCOUNT_DB_USER'),
     'password' => getenv('ACCOUNT_DB_PWD'),
@@ -87,7 +87,7 @@ $db['default'] = array(
 );
 
 $db['tl'] = array(
-    'dsn'    => '',
+    'dsn' => '',
     'hostname' => getenv('TOOLS_DB_HOST'),
     'username' => getenv('TOOLS_DB_USER'),
     'password' => getenv('TOOLS_DB_PWD'),
@@ -110,7 +110,7 @@ $db['tl'] = array(
 );
 
 $db['billing'] = array(
-    'dsn'    => '',
+    'dsn' => '',
     'hostname' => getenv('BILLING_DB_HOST'),
     'username' => getenv('BILLING_DB_USER'),
     'password' => getenv('BILLING_DB_PWD'),
@@ -132,7 +132,7 @@ $db['billing'] = array(
 );
 
 $db['comm'] = array(
-    'dsn'    => '',
+    'dsn' => '',
     'hostname' => getenv('COMMUNITY_DB_HOST'),
     'username' => getenv('COMMUNITY_DB_USER'),
     'password' => getenv('COMMUNITY_DB_PWD'),

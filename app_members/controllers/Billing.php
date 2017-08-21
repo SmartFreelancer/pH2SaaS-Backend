@@ -4,13 +4,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Billing extends MY_Controller
 {
 
-    function __construct() {
+    function __construct()
+    {
         parent::__construct();
         $this->load->model('billing_mdl');
     }
 
-    public function index() {
-         $this->data['invoices'] = $this->billing_mdl->get_invoices( array('usid' => $this->data['user']->id) );
+    public function index()
+    {
+        $this->data['invoices'] = $this->billing_mdl->get_invoices(array('usid' => $this->data['user']->id));
         $this->data['page_title'] = "Billing";
 
         $this->load->view('header', $this->data);
@@ -19,10 +21,11 @@ class Billing extends MY_Controller
         $this->load->view('footer', $this->data);
     }
 
-    public function invoices($invoice_id = NULL) {
+    public function invoices($invoice_id = NULL)
+    {
 
         if ($invoice_id == TRUE) {
-            $this->data['invoice'] = $this->billing_mdl->get_invoice_byid( array('inv_id' => $invoice_id,'usid' => $this->data['user']->id) );
+            $this->data['invoice'] = $this->billing_mdl->get_invoice_byid(array('inv_id' => $invoice_id, 'usid' => $this->data['user']->id));
             if ($this->data['invoice'] == FALSE) {
                 show_404();
             }
@@ -33,7 +36,7 @@ class Billing extends MY_Controller
             $this->load->view('billing/invoice_view', $this->data);
             $this->load->view('footer', $this->data);
         } else {
-            $this->data['invoices'] = $this->billing_mdl->get_invoices( array('usid' => $this->data['user']->id) );
+            $this->data['invoices'] = $this->billing_mdl->get_invoices(array('usid' => $this->data['user']->id));
             $this->data['page_title'] = "Invoices";
 
             $this->load->view('header', $this->data);

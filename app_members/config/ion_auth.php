@@ -27,10 +27,10 @@
 | -------------------------------------------------------------------------
 | Database table names.
 */
-$config['tables']['users']           = 'members';
-$config['tables']['groups']          = 'membership';
-$config['tables']['users_groups']    = 'member_roles';
-$config['tables']['login_attempts']  = 'failed_login';
+$config['tables']['users'] = 'members';
+$config['tables']['groups'] = 'membership';
+$config['tables']['users_groups'] = 'member_roles';
+$config['tables']['login_attempts'] = 'failed_login';
 
 /*
  | Users table column and Group table column you want to join WITH.
@@ -38,7 +38,7 @@ $config['tables']['login_attempts']  = 'failed_login';
  | Joins from users.id
  | Joins from groups.id
  */
-$config['join']['users']  = 'user_id';
+$config['join']['users'] = 'user_id';
 $config['join']['groups'] = 'role_id';
 
 /*
@@ -65,12 +65,12 @@ $config['join']['groups'] = 'role_id';
  | salt_prefix: Used for bcrypt. Versions of PHP before 5.3.7 only support "$2a$" as the salt prefix
  | Versions 5.3.7 or greater should use the default of "$2y$".
  */
-$config['hash_method']    = 'bcrypt';  // sha1 or bcrypt, bcrypt is STRONGLY recommended
+$config['hash_method'] = 'bcrypt';  // sha1 or bcrypt, bcrypt is STRONGLY recommended
 $config['default_rounds'] = 8;      // This does not apply if random_rounds is set to true
-$config['random_rounds']  = FALSE;
-$config['min_rounds']     = 5;
-$config['max_rounds']     = 9;
-$config['salt_prefix']    = '$2y$';
+$config['random_rounds'] = FALSE;
+$config['min_rounds'] = 5;
+$config['max_rounds'] = 9;
+$config['salt_prefix'] = '$2y$';
 
 /*
  | -------------------------------------------------------------------------
@@ -119,7 +119,7 @@ $config['identity_cookie_name'] = 'bt_act_user';
  */
 $config['use_ci_email'] = TRUE; // Send Email using the builtin CI email class, if false it will return the code and the identity
 $config['email_config'] = array(
-   'mailtype' => 'html',
+    'mailtype' => 'html',
 );
 
 /*
