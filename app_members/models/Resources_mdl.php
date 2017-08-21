@@ -1,23 +1,27 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Resources_mdl extends CI_Model {
+class Resources_mdl extends CI_Model
+{
 
     // status - field
     // 0 - active
     // 1 - disabled
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function count_resources() {
+    public function count_resources()
+    {
         $this->db->from('resources');
         $this->db->where('status', '0');
         $query = $this->db->count_all_results();
         return $query;
     }
 
-    function get_resources($where, $limit, $start) {
+    function get_resources($where, $limit, $start)
+    {
         $this->db->from('resources');
         $this->db->where($where);
         $this->db->limit($limit, $start);

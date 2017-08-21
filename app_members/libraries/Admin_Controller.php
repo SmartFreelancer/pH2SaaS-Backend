@@ -1,14 +1,16 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Admin_Controller extends MY_Controller {
+class Admin_Controller extends MY_Controller
+{
 
-    function __construct () {
+    function __construct()
+    {
         parent::__construct();
 
-        $group = array(1,2,3);
-      if ( ! $this->ion_auth->in_group($group)) {
+        $group = array(1, 2, 3);
+        if (!$this->ion_auth->in_group($group)) {
             redirect('/', 'refresh');
-      }
+        }
     }
 
 } /* End of file Admin_Controller.php */

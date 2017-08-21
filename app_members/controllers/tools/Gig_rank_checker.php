@@ -215,11 +215,11 @@ class Gig_rank_checker extends MY_Controller {
             $final_result = search_array_func($json_loop_data['gigs'], 'gig_id', $gig_id[1]);
 
             if ($page == 1) {
-               $overal_rank = $page_rank;
+                $overal_rank = $page_rank;
             } else if ($page > 1) {
-               $cal_or = $page - 1;
-               $cal_or2 = $cal_or * 48;
-               $overal_rank = $cal_or2 + $page_rank;
+                $cal_or = $page - 1;
+                $cal_or2 = $cal_or * 48;
+                $overal_rank = $cal_or2 + $page_rank;
             }
 
             echo "<pre>";

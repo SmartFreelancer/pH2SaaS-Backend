@@ -1,16 +1,19 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Resources extends MY_Controller {
+class Resources extends MY_Controller
+{
 
-    function __construct() {
+    function __construct()
+    {
         parent::__construct();
         $this->load->model('resources_mdl');
     }
 
-    public function index() {
-      $this->data['page_title'] = "Resources";
+    public function index()
+    {
+        $this->data['page_title'] = "Resources";
 
-      $this->load->library("pagination");
+        $this->load->library("pagination");
 
         $config = array();
         $config["base_url"] = base_url() . "/resources/index/";
@@ -37,10 +40,10 @@ class Resources extends MY_Controller {
         $this->data['resources_list'] = $this->resources_mdl->get_resources(array("status" => "0"), $config["per_page"], $page);
         $this->data['pagination'] = $this->pagination->create_links();
 
-      $this->load->view('header', $this->data);
-      $this->load->view('head_nav', $this->data);
-      $this->load->view('extras/resources', $this->data);
-      $this->load->view('footer', $this->data);
+        $this->load->view('header', $this->data);
+        $this->load->view('head_nav', $this->data);
+        $this->load->view('extras/resources', $this->data);
+        $this->load->view('footer', $this->data);
     }
 
 

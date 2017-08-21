@@ -1,12 +1,15 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Account_mdl extends CI_Model {
+class Account_mdl extends CI_Model
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
     }
 
-    public function update_members($data, $where) {
+    public function update_members($data, $where)
+    {
         $this->db->update('members', $data, $where);
         return $this->db->affected_rows();
     }

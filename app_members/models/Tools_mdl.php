@@ -1,8 +1,10 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Tools_mdl extends CI_Model {
+class Tools_mdl extends CI_Model
+{
 
-    public function __construct() {
+    public function __construct()
+    {
         parent::__construct();
         $this->tl_db = $this->load->database('tl', true);
     }
@@ -12,7 +14,8 @@ class Tools_mdl extends CI_Model {
     // 1 - Active
 
     // get all the tools by an identifier or get all the tools
-    public function get_tools($where) {
+    public function get_tools($where)
+    {
         $this->tl_db->from('tl_tools_list');
         $this->tl_db->where($where);
         $this->tl_db->order_by("sort_order", "asc");
@@ -20,7 +23,8 @@ class Tools_mdl extends CI_Model {
         return $query->result_array();
     }
 
-    public function get_tools_intro($where, $limit) {
+    public function get_tools_intro($where, $limit)
+    {
         $this->tl_db->from('tl_tools_list');
         $this->tl_db->where($where);
         $this->tl_db->order_by("date_created", "desc");
@@ -30,7 +34,8 @@ class Tools_mdl extends CI_Model {
     }
 
     // get a specific tool by an identifier
-    public function get_tool_byid($where) {
+    public function get_tool_byid($where)
+    {
         $query = $this->tl_db->get_where('tl_tools_list', $where);
         if ($query->num_rows() > 0) {
             return $query->row();
